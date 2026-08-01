@@ -19,6 +19,7 @@ import Testing
 @Suite
 struct `Throttling Dependencies Tests` {
     @Suite struct Unit {}
+    @Suite struct `Edge Case` {}
     @Suite struct Integration {}
 }
 
