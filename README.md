@@ -3,10 +3,10 @@
 ![Development Status](https://img.shields.io/badge/status-active--development-orange.svg)
 
 Rate-limiter, pacer, and throttled-client entry points timestamped from the
-[swift-dependencies](https://github.com/swift-foundations/swift-dependencies) `\.date` value.
+[swift-dependencies](https://github.com/swift-compositions/swift-dependencies) `\.date` value.
 
 > The throttling × dependencies integration package: call
-> [swift-throttling](https://github.com/swift-foundations/swift-throttling)'s
+> [swift-throttling](https://github.com/swift-compositions/swift-throttling)'s
 > machinery without passing timestamps — the current instant is read from the
 > `\.date` dependency, so tests control time by overriding one value.
 
@@ -22,14 +22,14 @@ swift-throttling surface:
 | `ThrottledClient.acquire(_:timestamp:)` | `ThrottledClient.acquire(_:)` |
 
 The `\.date` key itself lives in
-[swift-clocks-dependencies](https://github.com/swift-foundations/swift-clocks-dependencies)
+[swift-clocks-dependencies](https://github.com/swift-compositions/swift-clocks-dependencies)
 and is re-exported here.
 
 ## Installation
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-throttling-dependencies.git", branch: "main")
+    .package(url: "https://github.com/swift-compositions/swift-throttling-dependencies.git", branch: "main")
 ]
 ```
 

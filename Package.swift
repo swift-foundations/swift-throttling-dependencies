@@ -33,9 +33,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-foundations/swift-throttling.git", branch: "main"),
-        .package(url: "https://github.com/swift-foundations/swift-clocks-dependencies.git", branch: "main"),
-        .package(url: "https://github.com/swift-foundations/swift-dependencies.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-throttling.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-clocks-dependencies.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-dependencies.git", branch: "main"),
     ],
     targets: [
         .target(

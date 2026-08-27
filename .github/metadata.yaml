@@ -1,6 +1,6 @@
 description: Rate-limiter, pacer, and throttled-client entry points timestamped from the date dependency.
 topics:
-  - foundations
+  - compositions
   - dependencies
   - throttling
 readme:
